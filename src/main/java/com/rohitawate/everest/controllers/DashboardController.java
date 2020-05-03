@@ -860,5 +860,12 @@ public class DashboardController implements Initializable {
     public String getHttpMethod() {
         return httpMethodBox.getValue();
     }
+    
+    @FXML
+    void copyButton() {
+		responseArea.selectAll();
+		responseArea.copy();
+		responseArea.deselect();
+	}
 
 }

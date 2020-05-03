@@ -139,5 +139,30 @@
 				</StackPane>
 			</children>
 		</StackPane>
+		<HBox fx:id="clearHistoryField" alignment="CENTER"
+			fillHeight="false">
+			<VBox.margin>
+				<Insets />
+			</VBox.margin>
+			<children>
+				<JFXButton fx:id="clearHistory" defaultButton="true"
+					graphicTextGap="10.0" minWidth="80.0" onAction="#clearHistory"
+					prefHeight="30.0" ripplerFill="WHITE" text="CLEAR"
+					textAlignment="CENTER" textFill="WHITE">
+					<padding>
+						<Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+					</padding>
+					<font>
+						<Font size="15.0" />
+					</font>
+					<StackPane.margin>
+						<Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+					</StackPane.margin>
+				</JFXButton>
+			</children>
+			<padding>
+				<Insets bottom="5.0" left="20.0" right="10.0" top="5.0" />
+			</padding>
+		</HBox>
 	</children>
 </VBox>
